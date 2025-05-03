@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .nav {
+        overflow: hidden;
+        background-color: rgb(98, 15, 176);
+        align-items: center;
+      }
+      .nav a {
+        float: left;
+        color: rgb(255, 255, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .nav a:hover {
+        background-color: rgb(238, 255, 0);
+        color: blueviolet;
+      }
+
+      .nav a.active {
+        background-color: yellowgreen;
+        color: darkcyan;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .mySlides {
+        display: none;
+        max-height: 100%;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1 style="text-align: center">Navigation Bar</h1>
+      <div class="nav">
+        <a href="https://www.adidas.com/us">Home</a>
+        <a href="https://us.puma.com/us/en/men">About</a>
+        <a href="https://www.apple.com/">Contact</a>
+        <a href="https://www.goal.com/en">Gallery</a>
+      </div>
+
+      <h1>Slider</h1>
+      <div>
+        <img
+          src="https://images.newscientist.com/wp-content/uploads/2023/02/07104439/SEI_142739270.jpg"
+          alt="img1"
+          height="300px"
+          width="550px"
+          class="mySlides"
+        />
+
+        <img
+          src="https://hips.hearstapps.com/hmg-prod/images/scenic-view-of-waterfall-in-forest-newton-abbot-royalty-free-image-1681937445.jpg"
+          alt="img2"
+          height="300px"
+          width="550px"
+          class="mySlides"
+        />
+
+        <img
+          src="https://www.tyrol.com/images/fWb5ZgyteIk/cb:/g:ce/aHR0cHM6Ly91cGxvYWRzLm1hcHNlcnZpY2VzLmV1L25lZm9zX3Rpcm9sL3NpdGUtZmlsZXMvMTA1MS91cGxvYWRzL2dyb3NzZXItYWhvcm5ib2Rlbl8zXzI2ODU5ODI5LmpwZw"
+          alt="img3"
+          height="300px"
+          width="550px"
+          class="mySlides"
+        />
+      </div>
+
+      <script src="Slider.js"></script>
+    </center>
+  </body>
+</html>
