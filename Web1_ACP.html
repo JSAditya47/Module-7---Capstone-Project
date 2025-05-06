@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .nav {
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+      }
+      .nav a {
+        float: left;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .nav a:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
+
+      .nav a.active {
+        background-color: rgb(58, 58, 58);
+        color: rgb(255, 255, 255);
+      }
+
+      h1 {
+        text-align: center;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .mySlides {
+        display: none;
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      img {
+        border: 15px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1 style="text-align: center">Navigation Bar</h1>
+      <div class="nav">
+        <a href="https://www.goal.com/en-us">Home</a>
+        <a href="https://www.transfermarkt.com/">About</a>
+        <a href="https://en.wikipedia.org/wiki/Telephone_numbers_in_Bangladesh"
+          >Contact</a
+        >
+        <a href="https://unsplash.com/s/photos/football-player">Gallery</a>
+      </div>
+
+      <h1>Slider</h1>
+
+      <div>
+        <img
+          src="https://assets-fr.imgfoot.com/cristiano-ronaldo-2425.jpg"
+          height="300px"
+          width="550px"
+          class="mySlides"
+        />
+
+        <img
+          src="https://s.france24.com/media/display/490fcec0-7347-11ed-8477-005056a90284/w:1280/p:16x9/000_32YC632.jpg"
+          alt="img2"
+          height="300px"
+          width="550px"
+          class="mySlides"
+        />
+
+        <img
+          src="https://media.cnn.com/api/v1/images/stellar/prod/220930165943-01-neymar.jpg?c=16x9&q=h_833,w_1480,c_fill"
+          alt="img3"
+          height="300px"
+          width="550px"
+          class="mySlides"
+        />
+      </div>
+
+      <script src="Slider.js"></script>
+    </center>
+  </body>
+</html>
